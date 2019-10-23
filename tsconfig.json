@@ -8,5 +8,5 @@
 		"noEmit": true,
 		"jsx": "preserve"
 	},
-	"include": ["src", "src/apps/iris/src/units/common/code-editor/.ts"]
+	"include": ["src/**/*"]
 }
