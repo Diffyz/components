@@ -19,5 +19,7 @@ const Primary = styled.button`
 `;
 
 export const Styled = {
-	Primary,
+	Buttons: {
+		Primary,
+	},
 };
