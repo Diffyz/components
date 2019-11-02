@@ -1,5 +1,8 @@
 import React from 'react';
 
-export const App: React.FC = () => {
-	return <div className='App'>3333</div>;
+import 'bootstrap/dist/css/bootstrap.min.css';
+import { ModalWindow } from './components/src/modal-window/component';
+
+export const App = () => {
+	return <ModalWindow />;
 };
