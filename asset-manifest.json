@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.js": "/components/static/js/main.78ba8adc.chunk.js",
+    "main.js.map": "/components/static/js/main.78ba8adc.chunk.js.map",
+    "runtime-main.js": "/components/static/js/runtime-main.6af327e5.js",
+    "runtime-main.js.map": "/components/static/js/runtime-main.6af327e5.js.map",
+    "static/css/2.0624914a.chunk.css": "/components/static/css/2.0624914a.chunk.css",
+    "static/js/2.0884cf0c.chunk.js": "/components/static/js/2.0884cf0c.chunk.js",
+    "static/js/2.0884cf0c.chunk.js.map": "/components/static/js/2.0884cf0c.chunk.js.map",
+    "index.html": "/components/index.html",
+    "precache-manifest.e67d7c3b61f17de0f5b547790a64a6b6.js": "/components/precache-manifest.e67d7c3b61f17de0f5b547790a64a6b6.js",
+    "service-worker.js": "/components/service-worker.js",
+    "static/css/2.0624914a.chunk.css.map": "/components/static/css/2.0624914a.chunk.css.map",
+    "static/media/modal-window-cross.acdffed4.svg": "/components/static/media/modal-window-cross.acdffed4.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.6af327e5.js",
+    "static/css/2.0624914a.chunk.css",
+    "static/js/2.0884cf0c.chunk.js",
+    "static/js/main.78ba8adc.chunk.js"
+  ]
+}
