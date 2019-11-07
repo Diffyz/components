@@ -4,7 +4,7 @@ import { Buttons } from './buttons/buttons';
 import { ModalWindow } from './modal-window';
 
 export const Components = () => {
-	const [isModalWindowOpen, setIsModalWindowOpen] = React.useState(false);
+	const [isModalWindowOpen, setIsModalWindowOpen] = React.useState(true);
 
 	const handleCollapseClick = () => {
 		setIsModalWindowOpen(!isModalWindowOpen);
@@ -12,7 +12,10 @@ export const Components = () => {
 	return (
 		<>
 			<Buttons.Primary onClick={handleCollapseClick}>Collapse</Buttons.Primary>
-			<ModalWindow isOpen={isModalWindowOpen} />
+			<ModalWindow
+				handleCancelClick={handleCollapseClick}
+				isOpen={isModalWindowOpen}
+			/>
 		</>
 	);
 };

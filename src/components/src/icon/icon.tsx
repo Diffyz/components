@@ -1,23 +1,27 @@
-import React from 'react';
+import React, { HTMLProps } from 'react';
 
+import { Null } from '../modal-window/null-component';
 import { IconType } from './icon-type';
 import { ReactComponent as ModalWindowCross } from './svg/modal-window-cross.svg';
 
 import { Styled } from './styled';
 
-export interface IconProps {
+export interface IconProps extends HTMLProps<{}> {
 	type: IconType;
 }
 
 const icons = {
-	[IconType.ModalWindowCross]: () => <ModalWindowCross />,
+	[IconType.ModalWindowCross]: () => (
+		<Styled.Icon>
+			<ModalWindowCross />
+		</Styled.Icon>
+	),
+	[IconType.Empty]: () => <Null />,
 };
 
-export const Icon = (props: IconProps) => {
+const Icon = (props: IconProps) => {
 	const IconByType = icons[props.type];
-	return (
-		<Styled.Icon>
-			<IconByType />
-		</Styled.Icon>
-	);
+	return <IconByType />;
 };
+
+export { Icon };
