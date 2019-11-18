@@ -5,6 +5,8 @@
 	"private": true,
 	"main": "index.ts",
 	"scripts": {
+		"predeploy": "npm run build",
+		"deploy": "gh-pages -d build",
 		"start": "react-scripts start",
 		"bootstrap": "yarn run cleanModules && yarn install",
 		"cleanModules": "find . -name 'node_modules' -exec rm -rf '{}' +",
