@@ -1,6 +1,6 @@
 import React, { HTMLProps } from 'react';
 
-import { Null } from '../modal-window/null-component';
+import { Null } from '../null-component';
 import { IconType } from './icon-type';
 import { ReactComponent as ModalWindowCross } from './svg/modal-window-cross.svg';
 

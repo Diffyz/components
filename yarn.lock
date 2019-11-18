@@ -1324,6 +1324,13 @@
   resolved "https://registry.yarnpkg.com/@types/json-schema/-/json-schema-7.0.3.tgz#bdfd69d61e464dcc81b25159c270d75a73c1a636"
   integrity sha512-Il2DtDVRGDcqjDtE+rF8iqg1CArehSK84HZJCT7AMITlyXRBpuPhqGLDQMowraqqu1coEaimg4ZOqggt6L6L+A==
 
+"@types/mobx-devtools-mst@^0.9.0":
+  version "0.9.7"
+  resolved "https://registry.yarnpkg.com/@types/mobx-devtools-mst/-/mobx-devtools-mst-0.9.7.tgz#e6a3159315f2e9a73de081a996abf59dbb4339a1"
+  integrity sha512-TepKZpjqOJJe0niMaxRliHESZn9/VJA4H3drtt1sIYxknHOuXqvuMCUNJzy7AaCJg3BFG9Qr3MiuXVtDfTP00g==
+  dependencies:
+    mobx-devtools-mst "*"
+
 "@types/node@*":
   version "12.12.5"
   resolved "https://registry.yarnpkg.com/@types/node/-/node-12.12.5.tgz#66103d2eddc543d44a04394abb7be52506d7f290"
@@ -2054,7 +2061,7 @@ babel-code-frame@^6.22.0:
     esutils "^2.0.2"
     js-tokens "^3.0.2"
 
-babel-eslint@10.0.3:
+babel-eslint@10.0.3, babel-eslint@^10.0.3:
   version "10.0.3"
   resolved "https://registry.yarnpkg.com/babel-eslint/-/babel-eslint-10.0.3.tgz#81a2c669be0f205e19462fed2482d33e4687a88a"
   integrity sha512-z3U7eMY6r/3f3/JB9mTsLjyxrv0Yb1zb8PCWCLpguxfCzBIZUwy23R1t/XKewP+8mEN2Ck8Dtr4q20z6ce6SoA==
@@ -6843,6 +6850,11 @@ mkdirp@0.5.1, mkdirp@0.5.x, mkdirp@^0.5.0, mkdirp@^0.5.1, mkdirp@~0.5.1:
   integrity sha1-MAV0OOrGz3+MR2fzhkjWaX11yQM=
   dependencies:
     minimist "0.0.8"
+
+mobx-devtools-mst@*, mobx-devtools-mst@^0.9.21:
+  version "0.9.21"
+  resolved "https://registry.yarnpkg.com/mobx-devtools-mst/-/mobx-devtools-mst-0.9.21.tgz#430c52131d82b7ef24281baaae64e552908afa91"
+  integrity sha512-eyGtucp9zXunzRjYZjXsaQ18/riOy8bdW2a14YIQ96ZPhLXXnR0zivIUyJ35ZC3o5Nd+kpUzqrm/8jCf8zjLyQ==
 
 mobx-react-lite@^1.4.2:
   version "1.5.1"

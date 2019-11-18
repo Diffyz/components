@@ -1,4 +1,4 @@
-src/apps/storybook/*
+src/serviceWorker.ts
 node_modules
 build
 public
