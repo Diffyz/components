@@ -1,5 +1,14 @@
 import React from 'react';
 
-export const App: React.FC = () => {
-	return <div className='App'>3333</div>;
+import { Components } from './packages/components';
+import { StoreProvider } from './store/use-store';
+
+import 'bootstrap/dist/css/bootstrap.min.css';
+
+export const App = () => {
+	return (
+		<StoreProvider>
+			<Components />
+		</StoreProvider>
+	);
 };
