@@ -1,0 +1,73 @@
+{
+	"search.exclude": {
+		"**/node_modules": false
+	},
+	"typescript.tsdk": "node_modules\\typescript\\lib",
+	"javascript.preferences.quoteStyle": "single",
+	"typescript.preferences.quoteStyle": "single",
+	"cSpell.words": [
+		"Extremum",
+		"Signup",
+		"Truthy",
+		"antd",
+		"autoload",
+		"autosave",
+		"browserslist",
+		"checkboxes",
+		"checkmark",
+		"devtools",
+		"docx",
+		"ecomm",
+		"evenodd",
+		"generate",
+		"grapesjs",
+		"html",
+		"inspectable",
+		"lead-gen",
+		"lifecycle",
+		"make",
+		"mdbreact",
+		"middlewares",
+		"mobx",
+		"mst",
+		"nameof",
+		"oidc",
+		"openid",
+		"polyfill",
+		"prerequirements",
+		"promocode",
+		"pubsvs",
+		"react",
+		"remotedev",
+		"rerender",
+		"roboto",
+		"signin",
+		"signout",
+		"sourcemap",
+		"svgr",
+		"types",
+		"unmount",
+		"westech",
+		"xdescribe",
+		"camelcase"
+	],
+	"editor.formatOnSave": true,
+	"eslint.validate": [
+		{
+			"language": "javascript",
+			"autoFix": true
+		},
+		{
+			"language": "javascriptreact",
+			"autoFix": true
+		},
+		{
+			"language": "typescriptreact",
+			"autoFix": true
+		},
+		{
+			"language": "typescript",
+			"autoFix": true
+		}
+	]
+}
